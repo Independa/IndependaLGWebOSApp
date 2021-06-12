@@ -1,0 +1,10 @@
+{
+    "vendor": "Independa",
+    "largeIcon": "largeIcon.png",
+    "icon": "icon.png",
+    "main": "index.html",
+    "id": "com.independa.app",
+    "title": "Independa",
+    "type": "web",
+    "version": "0.0.1"
+}
