@@ -9,5 +9,6 @@
     "useCamera": true,
     "allowVideoCapture": true,
     "allowAudioCapture": true,
+    "deeplinkingParams": "https://dev-our.independa.com",
     "version": "0.0.2"
 }
