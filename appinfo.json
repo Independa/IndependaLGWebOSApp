@@ -6,5 +6,8 @@
     "id": "com.independa.app",
     "title": "Independa",
     "type": "web",
+    "useCamera": true,
+    "allowVideoCapture": true,
+    "allowAudioCapture": true,
     "version": "0.0.2"
 }
