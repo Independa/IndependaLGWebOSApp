@@ -1,14 +1,16 @@
 {
-    "vendor": "Independa",
-    "largeIcon": "largeIcon.png",
-    "icon": "icon.png",
-    "main": "index.html",
     "id": "com.independa.app",
     "title": "Independa",
+    "main": "index.html",
+    "icon": "icon.png",
+    "largeIcon": "largeIcon.png",
     "type": "web",
+    "vendor": "Independa",
+    "version": "1.0.0",
+    "splashBackground": "independa_logo_bootup.png",
+    "disableBackHistoryAPI": true,
     "useCamera": true,
     "allowVideoCapture": true,
     "allowAudioCapture": true,
-    "deeplinkingParams": "https://dev-our.independa.com",
-    "version": "0.0.3"
+    "deeplinkingParams": "https://our.independa.com"
 }

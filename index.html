@@ -3,7 +3,7 @@
 <head>
  <script type="text/javascript" src="webOSTVjs-1.2.0/webOSTV.js"></script>
  <script>
- 		var serverURL = 'https://dev-our.independa.com';
+ 		var serverURL = 'https://our.independa.com';
         var deeplinkparam = '';
         var request = webOS.service.request("luna://com.webos.service.sm", {
             method: "deviceid/getIDs",
@@ -36,7 +36,7 @@
                         deeplinkparam = '&launch=' + params.contentTarget;
                     }
                 }
-                location.href=serverURL+'/angela_app/tv?&mac='+device_id+'&hcap=false&demo=H5lR'+deeplinkparam; 
+                location.href=serverURL+'/angela_app/tv?&mac='+device_id+'&hcap=false&demo=H5lR'+deeplinkparam;
             },
             onFailure: function (inError) {
                 location.href=serverURL+'/angela_app/tv?&mac='+'LGTEST'+'&hcap=false&demo=H5lR';
